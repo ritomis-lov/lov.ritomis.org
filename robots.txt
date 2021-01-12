@@ -1,0 +1,5 @@
+# Allow crawling
+User-agent: *
+Allow: /
+
+Sitemap: https://lov.ritomis.org/sitemap.txt
