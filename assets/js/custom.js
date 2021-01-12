@@ -145,8 +145,8 @@ function generate_menu_items() {
 
         categories_html = categories_html + category_html;
     }
-    $('#menu_categories').html(categories_html);
-    // console.log(categories_html);
+    // $('#menu_categories').html(categories_html);
+    console.log(categories_html);
 
     let total_items = menu_items.length;
     let items_html = '';
@@ -157,22 +157,17 @@ function generate_menu_items() {
                     <div class="row">
                         <div class="col-3 align-self-center">
                             <div class="section_menu__item__img">
-                                <img src="assets/img/26.jpg" alt="...">
+                                <img src="assets/img/31.jpg" alt="...">
                             </div>
                         </div>
                 
-                        <div class="col-7">
+                        <div class="col-9">
                             <h4>${menu_items[counter][2]}</h4>
                             <p>
                             ${menu_items[counter][4]}
                             </p>
                         </div>
                         
-                        <div class="col-2">
-                            <div class="section_menu__item__price text-center">
-                            ₹ ${menu_items[counter][3]}
-                            </div>
-                        </div>
                     </div> <!-- / .row -->
                 </div>
             </div>
@@ -180,8 +175,8 @@ function generate_menu_items() {
 
         items_html = items_html + item_html;
     }
-    $('#menu_images').html(items_html);
-    // console.log(items_html);
+    // $('#menu_images').html(items_html);
+    console.log(items_html);
 }
 
-// generate_menu_items()
+// generate_menu_items();
